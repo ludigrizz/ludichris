@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>This is Ludichris</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../public/style/styles.css" />
+  <link rel="stylesheet" href="../public/style/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">
+      <a href="index.html">This is Ludichris</a>
+    </div>
+
+    <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">
+      ☰
+    </button>
+
+    <nav class="nav" id="nav">
+      <a href="about.html">What is? Who?</a>
+      <a href="blog.html">Blog</a>
+      <a href="playlist.html">Playlist</a>
+      <a href="contact.html">Get in touch</a>
+    </nav>
+  </header>
+
+  <main class="page-shell">
+    <section class="playlist-section">
+      <h1>Playlist</h1>
+      <p class="page-intro">
+        Songs for night drives, glowing city lights, and strange 2AM thoughts.
+      </p>
+
+      <div class="spotify-frame">
+        <iframe
+          data-testid="embed-iframe"
+          style="border-radius:12px"
+          src="https://open.spotify.com/embed/playlist/3hSly42AZvsqNqPDlcYbp9?utm_source=generator"
+          width="100%"
+          height="352"
+          frameborder="0"
+          allowfullscreen=""
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy">
+        </iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 This is Ludichris</p>
+  </footer>
+
+  <script src="../public/js/script.js"></script>
+</body>
+</html>

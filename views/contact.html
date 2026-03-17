@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>This is Ludichris</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../public/style/styles.css" />
+  <link rel="stylesheet" href="../public/style/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">
+      <a href="index.html">This is Ludichris</a>
+    </div>
+
+    <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">
+      ☰
+    </button>
+
+    <nav class="nav" id="nav">
+      <a href="about.html">What is? Who?</a>
+      <a href="blog.html">Blog</a>
+      <a href="playlist.html">Playlist</a>
+      <a href="contact.html">Get in touch</a>
+    </nav>
+  </header>
+
+  <main class="page-shell">
+    <section class="contact-section">
+      <h1>Get in touch</h1>
+      <p class="page-intro">
+        Want to say hi, ask something, or send me a thought?
+      </p>
+
+      <form class="contact-form" action="mailto:youremail@example.com" method="post" enctype="text/plain">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="your@email.com" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="8" placeholder="Write your message here..." required></textarea>
+
+        <button type="submit" class="glow-button">Send email</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 This is Ludichris</p>
+  </footer>
+
+  <script src="../public/js/script.js"></script>
+</body>
+</html>
